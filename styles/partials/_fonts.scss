@@ -1,0 +1,123 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+
+    #top {
+        color: $darkgrey;
+        font-family: 'SF Pro Display', Helvetica, Arial, sans-serif;
+
+        * {
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 56px;
+            font-weight: 500;
+            line-height: 1.07143;
+
+            @media (max-width: 1068px) {
+                font-size: 48px;
+            }
+
+            @media (max-width: 734px) {
+                font-size: 32px;
+            }
+        }
+        h3 {
+            font-size: 28px;
+            font-weight:400;
+            line-height: 1.10722;
+            margin-top: 6px;
+
+            @media (max-width: 1068px) {
+                font-size: 24px;
+            }
+
+            @media (max-width: 734px) {
+                font-size: 19px;
+            }
+        }
+
+        h4 {
+            font-size: 40px;
+            margin-top: 53px;
+
+            @media (max-width: 1068px) {
+                font-size: 32px;
+            }
+        }
+        
+        h5 {
+             font-size: 21px;
+             font-weight: 300;
+             margin-top: 4px;
+
+             @media (max-width: 1068px) {
+                font-size: 19px;
+            }
+        }
+
+        h6 {
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+
+        i {
+            position: relative;
+            top: 1px;
+            margin-left: 5px;
+        }
+
+        .links a {
+            font-size: 21px;
+            font-weight: 300;
+            z-index: 2;
+            color: $blue;
+            text-decoration: none;
+
+            @media (max-width: 1068px) {
+                font-size: 19px;
+            }
+
+            @media (max-width: 734px) {
+                font-size: 17px;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:nth-child(2) {
+                margin-left: 35px;
+            }
+        }
+
+        .split .links a {
+            font-size: 19px;
+
+            @media (max-width: 1068px) {
+                font-size: 17px;
+            }
+            
+            &:nth-child(2) {
+                margin-left: 28px;         
+            }
+        }
+
+        .dark {
+            color: $whitish;
+
+            h3 {
+                font-weight: 200;
+            }
+
+            h6 {
+                color: $whiter;
+            }
+
+            a {
+                color: #2997ff;
+            }
+        }
+    }
+}
